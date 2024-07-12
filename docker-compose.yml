@@ -1,0 +1,8 @@
+version: '1.1'
+services:
+  webgl:
+    image: bilinguismotalentum/agau-regional:2.1.0
+    container_name: agau_regional
+    ports:
+      - "8083:80"
+    restart: always
